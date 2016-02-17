@@ -11,7 +11,7 @@ class LoginDao extends DataAccessObjectBase
 	
 	public function SignIn($username, $password){
 		if(isset($username)&&isset($password)){
-			$sql = "SELECT * FROM " . $this->loginParams["DB_TABLE"] . " accounts where username = '" . $queryParams["USERNAME"] . "' AND password = '"  . $queryParams["PASSWORD"] . "'";
+			$sql = "SELECT * FROM accounts where username = '" . $username . "' AND password = '"  . $password . "'";
 			$isConnected = $this->Connect();
 			if($isConnected){
 				return $this->Query($sql);
