@@ -1,0 +1,154 @@
+*{
+    
+    margin:0;
+    
+}
+html,body{
+    height:100%;
+    width:100%;
+    overflow-y: hidden;
+}
+body{
+    overflow-x: scroll;
+}
+div{
+    height:100%;
+    width:100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.DefaultContainer{
+    display: inline-block;
+}
+.GlobalContainer{
+    
+    width : 100%;
+    min-width: 800px;
+    height: 100%;
+    min-height: 600px;
+    background-color:rgb(0,160,232);
+    
+}
+
+
+.MenuContainer{
+    clear : none;
+    float : left;
+    width : 9.8%;
+    border: 2px solid rgb(249,244,188);
+    background-color: rgb( 200,93,77);
+}
+.Container1{
+    flex-wrap: wrap;
+    clear: none;
+    float: right;
+    width:89.8%;
+}
+
+
+.FooterContainer{
+    clear : none;
+    height : 9.7%;
+    border: 2px solid rgb(249,244,188);
+    background-color: rgb(249,244,188);
+    
+}
+.Container2{
+    clear:none;
+    height:89.7%;
+    
+}
+
+
+.NewsContainer{
+    clear : none;
+    float : left;
+    width : 15%;
+    background-color:rgb( 200,93,77);
+    border: 2px solid rgb(249,244,188);
+}
+.Container3{
+    clear: none;
+    float: left;
+    width:85%;
+}
+
+
+.ContentContainer{
+    clear : none;
+    float:right;
+    height: 79.3%;
+    width: 99.5%;
+    border: 2px solid rgb(249,244,188);
+    background-color:rgb( 200,93,77);
+}
+.Container4{
+    clear: none;
+    height: 20%;
+    width:100%;
+}
+
+
+.BannerContainer{
+    clear : none;
+    float : left;
+    width : 75%;
+}
+.ProfileContainer{
+    clear : none;
+    float : right;
+    width : 24.5%;
+    border: 2px solid rgb(249,244,188);
+    background-color:rgb( 200,93,77);
+}
+
+#NewsHeader{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height:10%;
+}
+#NewsContent{
+    height:89%;
+    width: 90%;
+    background-color: white;
+    margin:0 auto;
+}
+
+/*
+#Menu{
+    height:99.4%;
+    width:96%;
+    outline: 2px solid rgb(249,244,188);
+    background-color: rgb( 200,93,77);
+}
+
+#News{
+    height: 99.65%;
+    width: 98%;
+    outline: 2px solid rgb(249,244,188);
+    background-color: rgb( 200,93,77);
+    
+}
+
+
+
+#Banner{
+}
+
+#Footer{
+    background-color: rgb(249,244,188);
+    
+}
+
+
+#Content{
+    background-color: rgb( 200,93,77);
+}
+#Profile{
+    outline: 2px solid rgb(249,244,188);
+    background-color: rgb( 200,93,77);
+    
+}*/
